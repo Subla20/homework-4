@@ -1,0 +1,30 @@
+.task {
+    align-items: left;
+    border-bottom: #D3D3D3 solid 1px;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    width: 736px;
+}
+
+.task-check {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.task-name {
+  height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  float: left;
+}
+
+.trash {
+    float: right;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.task-complete {
+    text-decoration: line-through;
+}

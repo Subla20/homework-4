@@ -1,0 +1,27 @@
+.task-input {
+  width: 639px;
+  height: 32px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+
+.task-input-btn {
+  width: 81px;
+  height: 32px;
+  background: #00A3FF;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.task-input-btn:disabled {
+  width: 81px;
+  height: 32px;
+  background: #C4C4C4;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
